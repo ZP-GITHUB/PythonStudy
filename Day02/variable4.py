@@ -1,0 +1,13 @@
+'''
+@Project ：PythonStudy 
+@File    ：variable4.py
+@IDE     ：PyCharm 
+@Author  ：zhangpeng
+@Date    ：2021/5/20 22:52 
+@description : 赋值运算符和复合赋值运算符
+'''
+a = 10
+b = 3
+a += b        # 相当于：a = a + b
+a *= a + 2    # 相当于：a = a * (a + 2)
+print(a)      # 算一下这里会输出什么
